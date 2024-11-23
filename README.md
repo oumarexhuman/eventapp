@@ -5,8 +5,8 @@ this project is built on next.js, react.js and symfony + API Platform
    Install Xampp server and import mysql database and create new user and password in phpmyadmin
 
 2. Event-Api
-   IN event-api folder find .env file and chnage mysql database credentials 
-   Open Terminal and locate project directory and run command "symfony server"
+   IN event-api folder find .env file and change mysql database credentials 
+   Open Terminal and locate project directory and run command "symfony serve"
 
 3. Event-Booking App (React)
    IN event-booking folder open terminal and run command "npm start"
@@ -19,7 +19,7 @@ For api documentation locate the link http://localhost:8000/api after running ev
 In Event app user can see a list of events on main page and click on even and explore the details of event
 after that user can find booking button on click of booking button that will take user to booking page where
 user needs to input details and define no of tickets to book the event and if tickets are not available user 
-will get the message not enought tickets available and fields are fully validated no empty fields and email 
+will get the message not enough tickets available and fields are fully validated no empty fields and email 
 validation and no of tickets prevent - value or zeros
 
 In dahsboard summary of events can be foud on the top and to login in dashboard
